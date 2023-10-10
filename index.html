@@ -7,13 +7,22 @@
     <title>Todo List</title>
   </head>
   <body>
-    <h1>Todo List</h1>
-    <form id="form">
-      <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+    <div class = "outer">
+      <div>
+        <h1>Todo List</h1>
+        <hr>
+      </div>
+      <form id="form">
+        <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+        <ul class="todos" id="todos"></ul>
+      </form>
 
-      <ul class="todos" id="todos"></ul>
-    </form>
-    <small>Left click to toggle completed. <br> Right click to delete todo</small>
+      <small>Left click to toggle completed. <br> Right click to delete todo</small>
+
+      
+    </div>
+    
+    
 
     <script src="script.js"></script>
   </body>
